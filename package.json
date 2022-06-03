@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "tailwindcss -i ./css/input.css -o ./css/style.css",
-    "watch": "tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.24"
