@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tailwindcss -i ./css/input.css -o ./css/style.css",
+    "build": "tailwindcss build --output public",
     "watch": "tailwindcss -i ./css/input.css -o ./css/style.css --watch"
   },
   "devDependencies": {
